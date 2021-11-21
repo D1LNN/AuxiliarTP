@@ -1,0 +1,12 @@
+import wollok.game.*
+import nivel1.*
+import nivel2.*
+
+program juego_aventura {
+	game.title("Aventura Piratosa Rarr!!!")
+	game.height(15)
+	game.width(15)
+	game.boardGround("fondoBlanco.png")
+	nivelBloques.presentacion()
+	game.start()
+}
